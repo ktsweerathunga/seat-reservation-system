@@ -1,0 +1,23 @@
+{
+  "devFiles": [],
+  "ampDevFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [],
+  "rootMainFiles": [],
+  "pages": {
+    "/_app": [
+      "static/chunks/bf276_next_dist_compiled_d9673eaa._.js",
+      "static/chunks/bf276_next_dist_shared_lib_e13f7693._.js",
+      "static/chunks/bf276_next_dist_client_a5e3ff62._.js",
+      "static/chunks/bf276_next_dist_1f5d298d._.js",
+      "static/chunks/bf276_next_app_aa5c72f3.js",
+      "static/chunks/[next]_entry_page-loader_ts_e689e18a._.js",
+      "static/chunks/bf276_react-dom_8c02bcf9._.js",
+      "static/chunks/bf276_ccbf844c._.js",
+      "static/chunks/[root-of-the-server]__47baf90e._.js",
+      "static/chunks/Documents_seat - reservation_pages__app_2da965e7._.js",
+      "static/chunks/turbopack-Documents_seat - reservation_pages__app_e8e2fdde._.js"
+    ]
+  },
+  "ampFirstPages": []
+}

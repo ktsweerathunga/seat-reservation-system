@@ -1,0 +1,13 @@
+__turbopack_load_page_chunks__("/_error", [
+  "static/chunks/bf276_next_dist_compiled_d9673eaa._.js",
+  "static/chunks/bf276_next_dist_shared_lib_21d20a59._.js",
+  "static/chunks/bf276_next_dist_client_a5e3ff62._.js",
+  "static/chunks/bf276_next_dist_e2b6b4b0._.js",
+  "static/chunks/bf276_next_error_fd57e669.js",
+  "static/chunks/[next]_entry_page-loader_ts_cdcd79ba._.js",
+  "static/chunks/bf276_react-dom_8c02bcf9._.js",
+  "static/chunks/bf276_ccbf844c._.js",
+  "static/chunks/[root-of-the-server]__d79be0ea._.js",
+  "static/chunks/Documents_seat - reservation_pages__error_2da965e7._.js",
+  "static/chunks/turbopack-Documents_seat - reservation_pages__error_c2a5a2de._.js"
+])

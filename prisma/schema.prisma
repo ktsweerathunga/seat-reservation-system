@@ -1,0 +1,41 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           String        @id @default(uuid())
+  name         String
+  email        String        @unique
+  password     String
+  role         String        @default("INTERN") // INTERN, ADMIN
+  reservations Reservation[]
+}
+
+model Seat {
+  id           String        @id @default(uuid())
+  number       String        @unique
+  location     String
+  isAvailable  Boolean       @default(true) // For maintenance or permanent unavailability
+  reservations Reservation[]
+}
+
+model Reservation {
+  id        String   @id @default(uuid())
+  userId    String
+  seatId    String
+  date      String   // Storing as YYYY-MM-DD string for easier querying by date
+  timeSlot  String   @default("ALL_DAY") // Placeholder for future slots
+  status    String   @default("ACTIVE") // ACTIVE, CANCELLED
+  createdAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id])
+  seat Seat @relation(fields: [seatId], references: [id])
+}
