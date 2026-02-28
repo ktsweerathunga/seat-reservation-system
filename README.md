@@ -45,3 +45,4 @@ As this project scales, the following "Pro-Level" updates are planned to improve
 ### 3. Backend Robustness (The Safety Net)
 *   **Advanced Schema Validation (Joi/Zod)**: Implement professional validation middleware to strictly enforce data rules (e.g., verifying email formats and date logic) *before* the request reaches the controller logic.
 *   **Centralized Error Handling**: Implement a global error-catching boundary to ensure any server or database failure returns a consistently formatted, secure JSON response without crashing the app.
+# seat-reservation-system
